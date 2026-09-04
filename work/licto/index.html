@@ -1,0 +1,247 @@
+<!doctype html>
+<!-- Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 · genre: technical-editorial · macrostructure: Long Document · design-system: design.md · theme: studied-DNA (https://hudovich.com/) · nav: N9 · footer: Ft2 · designed-as-app -->
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Licto — automatizare monitorizare SEAP | 0xhuo</title>
+    <meta name="description" content="Studiu de caz Licto: sistem privat pentru monitorizarea automată a licitațiilor SEAP, filtrarea rezultatelor relevante și urmărirea termenelor-limită.">
+    <meta name="theme-color" content="#1a1b25">
+    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="https://0xhuo.dev/work/licto/">
+    <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" href="/assets/fonts/geist-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/styles.css">
+    <script>(()=>{try{const s=localStorage.getItem("0xhuo-theme");document.documentElement.dataset.theme=s||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark")}catch{}})();</script>
+    <script src="/script.js" defer></script>
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="ro_RO">
+    <meta property="og:title" content="Licto — automatizare pentru monitorizarea SEAP">
+    <meta property="og:description" content="Un sistem privat care filtrează licitațiile relevante și urmărește termenele-limită.">
+    <meta property="og:url" content="https://0xhuo.dev/work/licto/">
+    <meta property="og:image" content="https://0xhuo.dev/assets/brand/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Sari la conținut</a>
+
+    <header class="site-header">
+      <nav class="site-nav container" aria-label="Navigare principală">
+        <a class="brand" href="/" aria-label="Înapoi la proiectele 0xhuo">
+          <img src="/assets/brand/mark.svg" width="32" height="32" alt="">
+          <span>0xhuo</span>
+          <span class="brand-context">/ Proiecte</span>
+        </a>
+        <button class="theme-toggle" type="button" aria-label="Schimbă tema de culoare" aria-pressed="false">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4"></path></svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8.5 8.5 0 0 1 8.6 4a8.5 8.5 0 1 0 11.4 11.4Z"></path></svg>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <header class="case-hero">
+          <div>
+            <p class="case-label">03 / Automatizare operațională</p>
+            <h1>Licto</h1>
+            <p class="case-deck">Monitorizare automată a licitațiilor SEAP, cu rezultate relevante și ușor de verificat.</p>
+          </div>
+          <aside class="case-hero-aside" aria-label="Detalii despre proiect">
+            <dl class="case-facts">
+              <div class="case-fact">
+                <dt>Status</dt>
+                <dd>Sistem privat</dd>
+              </div>
+              <div class="case-fact">
+                <dt>Domeniu</dt>
+                <dd>Achiziții publice</dd>
+              </div>
+              <div class="case-fact">
+                <dt>Rol</dt>
+                <dd>Automatizare și dezvoltare de sistem</dd>
+              </div>
+            </dl>
+            <span class="meta">Fără demo public</span>
+          </aside>
+        </header>
+
+        <figure class="case-cover case-cover--licto">
+          <img src="/assets/projects/licto-pipeline.svg" width="1440" height="1000" alt="Fluxul Licto, de la API-ul public SEAP la normalizare, potrivire deterministă, verificare, notificare și monitorizare" decoding="async">
+        </figure>
+
+        <section class="case-section" aria-labelledby="licto-outcome">
+          <h2 id="licto-outcome">Rezultat</h2>
+          <div class="case-content">
+            <p>Licto filtrează fluxul național de achiziții publice și îi oferă operatorului o listă scurtă de oportunități pe care le poate verifica în fiecare zi.</p>
+            <p>Pentru fiecare rezultat arată de ce a fost selectat, urmărește termenele-limită și modificările lor și separă licitațiile active de semnalele timpurii. În același timp, verifică dacă preluarea datelor funcționează normal.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-context">
+          <h2 id="licto-context">Context</h2>
+          <div class="case-content">
+            <p>Datele există în portalul public. Problema este să afli rapid ce este nou, ce merită atenție, ce s-a schimbat și ce trebuie făcut astăzi.</p>
+            <p>O alertă bazată pe câteva cuvinte-cheie trimite prea multe rezultate. Un scraper fragil creează o problemă în plus. Licto avea nevoie de o preluare stabilă, reguli adaptate fiecărui client și o interfață pe care echipa să o poată folosi fără ajutor tehnic.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-constraints">
+          <h2 id="licto-constraints">Constrângeri</h2>
+          <div class="case-content">
+            <p>Sistemul trebuie să inspire aceeași încredere într-o zi aglomerată și într-una fără rezultate.</p>
+            <ul class="constraint-list">
+              <li>SEAP expune date JSON utile, dar nu le documentează drept un API extern stabil.</li>
+              <li>Fiecare client urmărește alte coduri CPV, expresii, autorități și valori și are propriile excluderi.</li>
+              <li>Zero rezultate poate însemna o zi liniștită sau o preluare defectă. Sistemul trebuie să distingă cele două situații.</li>
+              <li>Fiecare rulare verifică și o perioadă deja parcursă, deci duplicatele și alertele repetate trebuie eliminate sigur.</li>
+              <li>Datele fiecărui client rămân separate, deși fluxul public este preluat o singură dată și apoi reutilizat.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-shipped">
+          <h2 id="licto-shipped">Ce am livrat</h2>
+          <div class="case-content">
+            <p>Am construit întregul flux: preluare programată, filtrare, verificare, notificare și monitorizarea funcționării.</p>
+            <ul class="shipped-list">
+              <li>Client pentru API-ul SEAP, cu paginare, reîncercări și filtrare locală.</li>
+              <li>Scor de relevanță bazat pe coduri CPV, contextul titlului, autorități, valori și excluderi explicite.</li>
+              <li>Mementouri pentru termene-limită, urmărirea eratelor și semnale timpurii din consultări, planuri și anunțuri de intenție.</li>
+              <li>Liste HTML disponibile offline, notificări prin email și Slack și un panou pentru stare, rulări și editarea profilurilor.</li>
+              <li>Istoricul rulărilor, detectarea anomaliilor, autentificare, roluri, migrări, backup și teste de regresie.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-system">
+          <h2 id="licto-system">Vedere de ansamblu</h2>
+          <div class="system-panel">
+            <div class="system-panel-header">
+              <h3>O singură preluare, reguli pentru fiecare client</h3>
+              <span class="diagram-label">Arhitectură simplificată</span>
+            </div>
+            <div class="system-flow" aria-label="Fluxul de date Licto">
+              <div class="flow-node">
+                <span class="diagram-label">Preluare</span>
+                <strong>API public</strong>
+                <span>Paginare, reîncercare și perioade suprapuse</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Decizie</span>
+                <strong>Potrivire cu profilul</strong>
+                <span>Scoruri deterministe și excluderi explicite</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Operare</span>
+                <strong>Verificare + notificare</strong>
+                <span>Listă, etape, termene, email și Slack</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Monitorizare</span>
+                <strong>Starea rulărilor</strong>
+                <span>Istoric, verificarea anomaliilor și alerte de eroare</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-failure">
+          <h2 id="licto-failure">Cum devin vizibile erorile silențioase</h2>
+          <div class="case-content">
+            <p>Faptul că mesajul de dimineață a fost trimis nu dovedește că datele au fost preluate corect. Licto înregistrează fiecare rulare și o compară cu istoricul normal al profilului.</p>
+            <ul class="evidence-list">
+              <li>Zero anunțuri preluate nu este același lucru cu zero anunțuri relevante.</li>
+              <li>O scădere bruscă este comparată cu istoricul profilului, nu cu un prag ales arbitrar.</li>
+              <li>Dacă niciun anunț nu mai conține termen de depunere, sistemul semnalează o posibilă schimbare de structură a datelor.</li>
+              <li>Un timer separat detectează și cazul în care procesul zilnic nu pornește deloc.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-decisions">
+          <h2 id="licto-decisions">Decizii importante</h2>
+          <dl class="decision-list">
+            <div class="decision-row">
+              <dt>Folosirea datelor JSON</dt>
+              <dd>Portalul oferă deja date structurate. Parsarea paginilor HTML ar fi mai fragilă și nu ar aduce informații în plus.</dd>
+              <dd class="decision-tradeoff">Structura JSON trebuie totuși monitorizată, fiindcă nu este garantată ca API public de integrare.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Filtrare locală</dt>
+              <dd>Volumul săptămânal poate fi preluat integral. Astfel evit filtrele nedocumentate ale serverului și pot aplica reguli mai bune local.</dd>
+              <dd class="decision-tradeoff">Sursele care cer multe pagini de detaliu au nevoie de limite separate pentru numărul de solicitări.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Scor determinist</dt>
+              <dd>Fiecare rezultat arată codul CPV, expresia, autoritatea sau excluderea care i-a influențat scorul. Operatorul poate înțelege și regla filtrarea.</dd>
+              <dd class="decision-tradeoff">Profilurile trebuie întreținute. Sistemul nu ascunde alegerile importante în spatele unui model opac.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Suprapunere și deduplicare</dt>
+              <dd>Fiecare rulare se uită suficient de mult în urmă pentru a recupera datele după o eroare temporară. Cheile persistente previn repetarea anunțurilor și mementourilor.</dd>
+              <dd class="decision-tradeoff">Baza de date și migrările devin componente esențiale, nu doar un cache opțional.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Un reper pentru fiecare profil</dt>
+              <dd>Același prag zilnic nu funcționează în industrii diferite. Anomaliile sunt evaluate față de rulările reușite ale fiecărui profil.</dd>
+              <dd class="decision-tradeoff">La început, sistemul are nevoie de o perioadă de calibrare înainte să poată semnala abateri.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-proof">
+          <h2 id="licto-proof">Dovezi</h2>
+          <div class="proof-grid">
+            <div class="proof-item">
+              <strong>Fiecare rezultat are un motiv</strong>
+              <span>Fiecare rezultat păstrează motivele scorului și etapa curentă. Sistemul urmărește notificările, eratele și schimbările termenelor-limită.</span>
+            </div>
+            <div class="proof-item">
+              <strong>Control pentru operator</strong>
+              <span>Operatorul poate vedea starea, porni o actualizare și modifica regulile profilului fără acces la terminal.</span>
+            </div>
+            <div class="proof-item">
+              <strong>Erorile nu trec neobservate</strong>
+              <span>Istoricul și verificările independente fac diferența dintre o zi liniștită și o preluare defectă.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-limits">
+          <h2 id="licto-limits">Limite</h2>
+          <div class="limits-panel">
+            <h3>Integrarea trebuie supravegheată.</h3>
+            <p>Structura SEAP se poate schimba, unele surse cer multe solicitări, iar calitatea rezultatelor depinde de regulile fiecărui client. Pentru că sistemul este privat, acest studiu de caz arată arhitectura și deciziile tehnice, nu datele clienților sau un demo artificial.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="licto-role">
+          <h2 id="licto-role">Rol și tehnologii</h2>
+          <div class="case-content">
+            <p class="role-statement">Am proiectat și construit întregul sistem: preluarea și filtrarea datelor, modelul de stare, interfața operatorului, notificările și detectarea erorilor.</p>
+            <p class="stack-line">Python · requests · profiluri YAML · SQLite · HTML generat · SMTP · Slack · systemd</p>
+          </div>
+        </section>
+
+        <nav class="next-case" aria-label="Următorul studiu de caz">
+          <span class="next-case-label">Înapoi la proiectul principal</span>
+          <a class="arrow-link" href="/work/atlas-energie/">AtlasEnergie →</a>
+        </nav>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta container">
+        <div class="footer-meta-group">
+          <a href="/">0xhuo</a>
+          <span>România</span>
+          <a href="mailto:contact@0xhuo.dev">contact@0xhuo.dev</a>
+        </div>
+        <span>© 2026</span>
+      </div>
+    </footer>
+  </body>
+</html>

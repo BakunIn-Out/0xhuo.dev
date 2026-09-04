@@ -1,0 +1,56 @@
+<!-- Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 · artifact: Open Graph cover · genre: technical-editorial · theme: studied-DNA · tone: technical, direct, calm · anchor hue: amber -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">0xhuo — dezvoltare software și automatizări</title>
+  <desc id="desc">Coperta portofoliului 0xhuo pentru servicii de dezvoltare software și automatizări.</desc>
+
+  <style>
+    @font-face {
+      font-family: "Geist Mono";
+      font-style: normal;
+      font-weight: 100 900;
+      src: url("../fonts/geist-mono-latin.woff2") format("woff2");
+    }
+
+    :root {
+      --paper: oklch(22.57% 0.0194 280.2);
+      --ink: oklch(87.11% 0.0055 286.3);
+      --ink-2: oklch(78.41% 0.007 286.2);
+      --muted: oklch(66% 0.009 286);
+      --rule: oklch(27.39% 0.0055 286);
+      --accent: oklch(78.59% 0.1674 70);
+      --brand-accent: oklch(68.76% 0.211 38.93);
+      --font-primary: "Geist Mono", ui-monospace, monospace;
+    }
+
+    text {
+      font-family: var(--font-primary);
+    }
+  </style>
+
+  <rect width="1200" height="630" fill="var(--paper)"/>
+
+  <g transform="translate(72 68) scale(.78)">
+    <g fill="none" stroke="var(--ink)" stroke-width="4.5" stroke-linecap="square" stroke-linejoin="bevel">
+      <path d="M26 5 9 15v34l17 10"/>
+      <path d="m38 5 17 10v34L38 59"/>
+      <path d="M32 4v17M32 43v17"/>
+      <path d="m18 19 10 9M36 36l10 9M46 19 36 28M28 36l-10 9"/>
+    </g>
+    <path fill="var(--brand-accent)" d="m32 25 7 7-7 7-7-7z"/>
+  </g>
+
+  <text x="140" y="107" fill="var(--ink)" font-size="30" font-weight="650" letter-spacing="-1">0xhuo</text>
+  <text x="1128" y="104" fill="var(--muted)" font-size="16" font-weight="500" letter-spacing="1.5" text-anchor="end">PORTOFOLIU / 2026</text>
+  <path d="M72 153H1128" stroke="var(--rule)" stroke-width="2"/>
+
+  <text x="72" y="257" fill="var(--ink)" font-size="60" font-weight="650" letter-spacing="-2.4">Dezvoltare software</text>
+  <text x="72" y="333" fill="var(--ink)" font-size="60" font-weight="650" letter-spacing="-2.4">și automatizări.</text>
+  <path d="M72 350H352" stroke="var(--accent)" stroke-width="2"/>
+
+  <text x="72" y="428" fill="var(--ink-2)" font-size="23" font-weight="400">Aplicații web, sisteme backend și produse de date</text>
+  <text x="72" y="464" fill="var(--ink-2)" font-size="23" font-weight="400">construite pentru probleme concrete.</text>
+
+  <path d="M72 530H1128" stroke="var(--rule)" stroke-width="2"/>
+  <text x="72" y="580" fill="var(--muted)" font-size="18" font-weight="500">AtlasEnergie · busapp · Licto · Orion Grid</text>
+  <text x="1128" y="580" fill="var(--ink)" font-size="18" font-weight="550" text-anchor="end">0xhuo.dev</text>
+</svg>

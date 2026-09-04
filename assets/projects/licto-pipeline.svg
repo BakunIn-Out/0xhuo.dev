@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Schema sistemului de monitorizare Licto</title>
+  <desc id="desc">O diagramă fără date confidențiale care arată cum datele publice din SEAP sunt normalizate, evaluate, verificate, notificate și monitorizate.</desc>
+  <rect width="1440" height="1000" fill="#090B0E"/>
+  <path d="M0 1h1440M0 999h1440" stroke="#2A323C"/>
+  <text x="88" y="90" fill="#8D99A6" font-family="JetBrains Mono, monospace" font-size="20" letter-spacing="3">LICTO / SISTEM PRIVAT</text>
+  <text x="88" y="178" fill="#E9EEF2" font-family="Space Grotesk, sans-serif" font-size="62" font-weight="700">De la anunțuri publice</text>
+  <text x="88" y="246" fill="#E9EEF2" font-family="Space Grotesk, sans-serif" font-size="62" font-weight="700">la o listă de acțiuni.</text>
+  <rect x="88" y="294" width="92" height="7" fill="#FF5A1F"/>
+
+  <g font-family="JetBrains Mono, monospace" font-size="18">
+    <g>
+      <rect x="88" y="376" width="206" height="106" rx="8" fill="#11161C" stroke="#2A323C"/>
+      <text x="116" y="418" fill="#8D99A6" font-size="14" letter-spacing="2">INTRARE</text>
+      <text x="116" y="453" fill="#E9EEF2">API public SEAP</text>
+    </g>
+    <path d="M294 429h70" stroke="#FF5A1F" stroke-width="2"/>
+    <path d="m353 420 11 9-11 9" fill="none" stroke="#FF5A1F" stroke-width="2"/>
+    <g>
+      <rect x="364" y="376" width="206" height="106" rx="8" fill="#11161C" stroke="#2A323C"/>
+      <text x="392" y="418" fill="#8D99A6" font-size="14" letter-spacing="2">FORMARE</text>
+      <text x="392" y="453" fill="#E9EEF2">Normalizare</text>
+    </g>
+    <path d="M570 429h70" stroke="#FF5A1F" stroke-width="2"/>
+    <path d="m629 420 11 9-11 9" fill="none" stroke="#FF5A1F" stroke-width="2"/>
+    <g>
+      <rect x="640" y="376" width="206" height="106" rx="8" fill="#11161C" stroke="#FF5A1F"/>
+      <text x="668" y="418" fill="#FF5A1F" font-size="14" letter-spacing="2">DECIZIE</text>
+      <text x="668" y="453" fill="#E9EEF2">Scor + potrivire</text>
+    </g>
+    <path d="M846 429h70" stroke="#FF5A1F" stroke-width="2"/>
+    <path d="m905 420 11 9-11 9" fill="none" stroke="#FF5A1F" stroke-width="2"/>
+    <g>
+      <rect x="916" y="376" width="206" height="106" rx="8" fill="#11161C" stroke="#2A323C"/>
+      <text x="944" y="418" fill="#8D99A6" font-size="14" letter-spacing="2">ACȚIUNE</text>
+      <text x="944" y="453" fill="#E9EEF2">Listă de verificat</text>
+    </g>
+    <path d="M1122 429h70" stroke="#FF5A1F" stroke-width="2"/>
+    <path d="m1181 420 11 9-11 9" fill="none" stroke="#FF5A1F" stroke-width="2"/>
+    <g>
+      <rect x="1192" y="376" width="160" height="106" rx="8" fill="#11161C" stroke="#2A323C"/>
+      <text x="1220" y="418" fill="#8D99A6" font-size="14" letter-spacing="2">LIVRARE</text>
+      <text x="1220" y="453" fill="#E9EEF2">Notificare</text>
+    </g>
+  </g>
+
+  <g transform="translate(88 566)">
+    <rect width="770" height="320" rx="8" fill="#11161C" stroke="#2A323C"/>
+    <text x="30" y="48" fill="#8D99A6" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2">MOTIVUL POTRIVIRII</text>
+    <g font-family="JetBrains Mono, monospace" font-size="18">
+      <path d="M30 88h710M30 154h710M30 220h710" stroke="#2A323C"/>
+      <text x="30" y="128" fill="#E9EEF2">CPV principal</text>
+      <text x="670" y="128" fill="#3DD6D0">+50</text>
+      <text x="30" y="194" fill="#E9EEF2">Cuvânt în titlu</text>
+      <text x="670" y="194" fill="#3DD6D0">+40</text>
+      <text x="30" y="260" fill="#E9EEF2">Excludere</text>
+      <text x="660" y="260" fill="#FF5A1F">−70</text>
+    </g>
+    <text x="30" y="296" fill="#8D99A6" font-family="Inter, sans-serif" font-size="17">Motive deterministe, vizibile pentru operator.</text>
+  </g>
+
+  <g transform="translate(900 566)">
+    <rect width="452" height="320" rx="8" fill="#11161C" stroke="#2A323C"/>
+    <text x="30" y="48" fill="#8D99A6" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2">MONITORIZAREA SISTEMULUI</text>
+    <circle cx="38" cy="106" r="7" fill="#3DD6D0"/>
+    <text x="62" y="113" fill="#E9EEF2" font-family="Inter, sans-serif" font-size="19">Rulare înregistrată</text>
+    <circle cx="38" cy="168" r="7" fill="#3DD6D0"/>
+    <text x="62" y="175" fill="#E9EEF2" font-family="Inter, sans-serif" font-size="19">Volum comparat</text>
+    <circle cx="38" cy="230" r="7" fill="#FF5A1F"/>
+    <text x="62" y="237" fill="#E9EEF2" font-family="Inter, sans-serif" font-size="19">Eroare silențioasă detectată</text>
+    <text x="30" y="288" fill="#8D99A6" font-family="Inter, sans-serif" font-size="17">O zi liniștită nu trebuie confundată cu o preluare defectă.</text>
+  </g>
+</svg>

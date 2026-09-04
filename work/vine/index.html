@@ -1,0 +1,257 @@
+<!doctype html>
+<!-- Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 · genre: technical-editorial · macrostructure: Long Document · design-system: design.md · theme: studied-DNA (https://hudovich.com/) · nav: N9 · footer: Ft2 · designed-as-app -->
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>busapp — transport public în timp real | 0xhuo</title>
+    <meta name="description" content="Studiu de caz busapp: aplicație web cu sosiri în timp real pentru transportul public din București–Ilfov și diferențe clare între date live și orar.">
+    <meta name="theme-color" content="#1a1b25">
+    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="https://0xhuo.dev/work/vine/">
+    <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" href="/assets/fonts/geist-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/styles.css">
+    <script>(()=>{try{const s=localStorage.getItem("0xhuo-theme");document.documentElement.dataset.theme=s||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark")}catch{}})();</script>
+    <script src="/script.js" defer></script>
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="ro_RO">
+    <meta property="og:title" content="busapp — transport public în timp real">
+    <meta property="og:description" content="Sosiri în timp real pentru transportul public din București–Ilfov, fără confuzie între datele live și orar.">
+    <meta property="og:url" content="https://0xhuo.dev/work/vine/">
+    <meta property="og:image" content="https://0xhuo.dev/assets/brand/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Sari la conținut</a>
+
+    <header class="site-header">
+      <nav class="site-nav container" aria-label="Navigare principală">
+        <a class="brand" href="/" aria-label="Înapoi la proiectele 0xhuo">
+          <img src="/assets/brand/mark.svg" width="32" height="32" alt="">
+          <span>0xhuo</span>
+          <span class="brand-context">/ Proiecte</span>
+        </a>
+        <button class="theme-toggle" type="button" aria-label="Schimbă tema de culoare" aria-pressed="false">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4"></path></svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8.5 8.5 0 0 1 8.6 4a8.5 8.5 0 1 0 11.4 11.4Z"></path></svg>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <header class="case-hero">
+          <div>
+            <p class="case-label">02 / Produs în timp real</p>
+            <h1>busapp</h1>
+            <p class="case-deck">Sosiri în timp real pentru transportul public din București–Ilfov, fără confuzie între datele live și orar.</p>
+          </div>
+          <aside class="case-hero-aside" aria-label="Detalii despre proiect">
+            <dl class="case-facts">
+              <div class="case-fact">
+                <dt>Status</dt>
+                <dd>Live beta</dd>
+              </div>
+              <div class="case-fact">
+                <dt>Domeniu</dt>
+                <dd>Transport public</dd>
+              </div>
+              <div class="case-fact">
+                <dt>Rol</dt>
+                <dd>Dezvoltare produs și sistem</dd>
+              </div>
+            </dl>
+            <a class="arrow-link" href="https://vine.licto.ro/?station=7428" target="_blank" rel="noopener noreferrer">Deschide produsul ↗</a>
+          </aside>
+        </header>
+
+        <figure class="case-cover case-cover--vine">
+          <picture>
+            <source media="(max-width: 719px)" srcset="/assets/projects/vine-mobile.webp">
+            <img src="/assets/projects/vine.webp" width="1440" height="1000" alt="Panoul busapp pentru stația Piața Unirii 1, cu sosiri marcate LIVE și ORAR" decoding="async">
+          </picture>
+        </figure>
+
+        <section class="case-section" aria-labelledby="vine-outcome">
+          <h2 id="vine-outcome">Rezultat</h2>
+          <div class="case-content">
+            <p>busapp răspunde la întrebarea pe care o ai în stație: mă grăbesc, mai aștept sau pot sta liniștit?</p>
+            <p>Aplicația arată sosirile din București–Ilfov și explică sursa fiecărei estimări. O predicție live nu arată niciodată la fel ca o oră din program, așa că știi câtă încredere poți avea în timpul afișat.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-context">
+          <h2 id="vine-context">Context</h2>
+          <div class="case-content">
+            <p>Datele de transport amestecă orarul planificat cu observațiile primite de la vehicule. Dacă ambele devin aceeași numărătoare inversă, nu mai vezi când sursa live întârzie sau lipsește.</p>
+            <p>În busapp, proveniența face parte din interfață. Eticheta, vechimea datelor și trecerea la orar contează la fel de mult ca numărul de minute afișat.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-constraints">
+          <h2 id="vine-constraints">Constrângeri</h2>
+          <div class="case-content">
+            <p>Panoul trebuie să răspundă repede chiar și atunci când sursa externă nu este perfectă.</p>
+            <ul class="constraint-list">
+              <li>Datele vehiculelor pot întârzia, pot lipsi la o actualizare sau pot contrazice orarul static.</li>
+              <li>O estimare poate fi corectată numai după ce profilul stației, liniei sau tipului de transport a fost verificat față de sosiri observate.</li>
+              <li>Aplicația trebuie să funcționeze în stație, pe un ecran mic, fără cont și fără configurare.</li>
+              <li>Locația și călătoriile salvate rămân în browser. Nu este nevoie de profil sau de urmărirea utilizatorului.</li>
+              <li>Alertele operatorului rămân vizibile fără să distragă de la informația principală.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-shipped">
+          <h2 id="vine-shipped">Ce am livrat</h2>
+          <div class="case-content">
+            <p>Am păstrat interfața concentrată pe sosiri și am construit în spate sistemele de cache și măsurare de care are nevoie.</p>
+            <ul class="shipped-list">
+              <li>Găsirea stațiilor după locație sau nume și linkuri directe care pot fi distribuite.</li>
+              <li>Sosiri marcate clar LIVE sau ORAR, alerte de la operator și un indicator separat pentru actualitatea datelor.</li>
+              <li>Călătorii și preferințe salvate local, fără cont și fără urmărirea utilizatorului.</li>
+              <li>Preîncărcarea datelor GTFS statice, cache pentru fluxul în timp real și limite stricte de așteptare la actualizare.</li>
+              <li>Un sistem care măsoară calitatea predicțiilor și păstrează doar rezultate agregate, nu identități sau coordonate ale vehiculelor.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-uncertainty">
+          <h2 id="vine-uncertainty">Cum este afișată incertitudinea</h2>
+          <div class="case-content">
+            <div class="state-comparison">
+              <div class="state-card state-card--live">
+                <div class="state-card-label">LIVE</div>
+                <p>Estimarea pornește de la o observație recentă a vehiculului, iar sursa rămâne vizibilă.</p>
+              </div>
+              <div class="state-card">
+                <div class="state-card-label">ORAR</div>
+                <p>Este o rezervă utilă, dar nu primește aceeași greutate vizuală ca o estimare live.</p>
+              </div>
+            </div>
+            <div class="freshness-line">
+              <span class="diagram-label">Degradare controlată</span>
+              <ol class="freshness-steps">
+                <li><strong>Actual</strong>Datele live sunt suficient de recente.</li>
+                <li><strong>Pauză scurtă</strong>Ultima stare confirmată rămâne cel mult 60 de secunde dacă o actualizare este incompletă.</li>
+                <li><strong>Expirat</strong>Interfața revine la orar și spune clar acest lucru.</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-system">
+          <h2 id="vine-system">Vedere de ansamblu</h2>
+          <div class="system-panel">
+            <div class="system-panel-header">
+              <h3>Mai întâi sursa, apoi minutele</h3>
+              <span class="diagram-label">Arhitectură simplificată</span>
+            </div>
+            <div class="system-flow" aria-label="Fluxul de date busapp">
+              <div class="flow-node">
+                <span class="diagram-label">Planificare</span>
+                <strong>GTFS static</strong>
+                <span>Stații, linii, curse și ore programate</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Observare</span>
+                <strong>GTFS în timp real</strong>
+                <span>Actualizări ale vehiculelor, modificări de curse și alerte</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Decizie</span>
+                <strong>Cache + stare</strong>
+                <span>Actualitate, rezervă și actualizare limitată</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Afișare</span>
+                <strong>Panou de sosiri</strong>
+                <span>Minute, direcție și eticheta sursei</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-decisions">
+          <h2 id="vine-decisions">Decizii importante</h2>
+          <dl class="decision-list">
+            <div class="decision-row">
+              <dt>Etichetarea sursei</dt>
+              <dd>Eticheta LIVE apare numai pentru date recente și confirmate. În rest, aplicația spune clar că afișează orarul.</dd>
+              <dd class="decision-tradeoff">Interfața pare uneori mai puțin sigură, tocmai pentru că nu ascunde lipsa datelor live.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Păstrarea unei pauze scurte</dt>
+              <dd>O actualizare incompletă nu trebuie să șteargă imediat un vehicul observat cu câteva secunde înainte. Ultima stare confirmată primește o scurtă perioadă de grație.</dd>
+              <dd class="decision-tradeoff">Datele trebuie apoi să expire rapid, altfel aplicația ar afișa o certitudine falsă.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Calibrarea estimărilor validate</dt>
+              <dd>Sistemul compară predicțiile cu sosirile observate. După ce un profil este validat, poate corecta estimarea pentru stația, linia sau tipul de transport respectiv.</dd>
+              <dd class="decision-tradeoff">Până la validare, busapp folosește direct predicția primită în timp real.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Doar ce contează în stație</dt>
+              <dd>Fără hărți, conturi sau urmărirea călătoriilor. Produsul te ajută să iei o decizie în stație, nu încearcă să fie un portal complet de transport.</dd>
+              <dd class="decision-tradeoff">Planificarea traseelor rămâne în afara aplicației, chiar dacă ar adăuga încă o funcționalitate.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-proof">
+          <h2 id="vine-proof">Dovezi</h2>
+          <div class="proof-grid">
+            <div class="proof-item">
+              <strong>Interfață publică</strong>
+              <p>Pagina publică a stației arată sosirile, starea sursei și alertele curente.</p>
+              <a class="arrow-link" href="https://vine.licto.ro/?station=7428" target="_blank" rel="noopener noreferrer">Deschide busapp ↗</a>
+            </div>
+            <div class="proof-item">
+              <strong>Trecerea la orar este vizibilă</strong>
+              <span>Sosirile LIVE și cele din orar pot apărea împreună fără să fie prezentate ca și cum ar avea aceeași precizie.</span>
+            </div>
+            <div class="proof-item">
+              <strong>Datele personale rămân locale</strong>
+              <span>Locația și preferințele rămân în browser. Sistemul păstrează statistici de precizie, nu istoricul deplasărilor.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-limits">
+          <h2 id="vine-limits">Limite</h2>
+          <div class="limits-panel">
+            <h3>Aplicația nu poate inventa date live.</h3>
+            <p>Când fluxul operatorului întârzie sau nu este disponibil, busapp poate folosi pentru scurt timp datele din cache, poate explica problema și poate reveni la orar. Nu poate pretinde că știe unde este vehiculul. Aplicația nu include planificare de trasee, conturi sau urmărirea călătoriilor.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="vine-role">
+          <h2 id="vine-role">Rol și tehnologii</h2>
+          <div class="case-content">
+            <p class="role-statement">Am proiectat și construit logica produsului, fluxul de date în timp real, interfața, regulile de confidențialitate și infrastructura de operare.</p>
+            <p class="stack-line">Next.js · Node.js · GTFS static + în timp real · cache pe server · systemd · Caddy</p>
+          </div>
+        </section>
+
+        <nav class="next-case" aria-label="Următorul studiu de caz">
+          <span class="next-case-label">Următorul sistem</span>
+          <a class="arrow-link" href="/work/licto/">Licto →</a>
+        </nav>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta container">
+        <div class="footer-meta-group">
+          <a href="/">0xhuo</a>
+          <span>România</span>
+          <a href="mailto:contact@0xhuo.dev">contact@0xhuo.dev</a>
+        </div>
+        <span>© 2026</span>
+      </div>
+    </footer>
+  </body>
+</html>

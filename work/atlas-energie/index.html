@@ -1,0 +1,233 @@
+<!doctype html>
+<!-- Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 · genre: technical-editorial · macrostructure: Long Document · design-system: design.md · theme: studied-DNA (https://hudovich.com/) · nav: N9 · footer: Ft2 · designed-as-app -->
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>AtlasEnergie — platformă de date energetice | 0xhuo</title>
+    <meta name="description" content="Studiu de caz: cum am construit AtlasEnergie, o hartă și un marketplace pentru proiecte energetice din România, pornind de la surse publice fragmentate.">
+    <meta name="theme-color" content="#1a1b25">
+    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="https://0xhuo.dev/work/atlas-energie/">
+    <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" href="/assets/fonts/geist-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/styles.css">
+    <script>(()=>{try{const s=localStorage.getItem("0xhuo-theme");document.documentElement.dataset.theme=s||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark")}catch{}})();</script>
+    <script src="/script.js" defer></script>
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="ro_RO">
+    <meta property="og:title" content="AtlasEnergie — platformă de date energetice">
+    <meta property="og:description" content="Hartă și marketplace pentru proiecte energetice din România, construite din surse publice fragmentate.">
+    <meta property="og:url" content="https://0xhuo.dev/work/atlas-energie/">
+    <meta property="og:image" content="https://0xhuo.dev/assets/brand/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Sari la conținut</a>
+
+    <header class="site-header">
+      <nav class="site-nav container" aria-label="Navigare principală">
+        <a class="brand" href="/" aria-label="Înapoi la proiectele 0xhuo">
+          <img src="/assets/brand/mark.svg" width="32" height="32" alt="">
+          <span>0xhuo</span>
+          <span class="brand-context">/ Proiecte</span>
+        </a>
+        <button class="theme-toggle" type="button" aria-label="Schimbă tema de culoare" aria-pressed="false">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4"></path></svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8.5 8.5 0 0 1 8.6 4a8.5 8.5 0 1 0 11.4 11.4Z"></path></svg>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <header class="case-hero">
+          <div>
+            <p class="case-label">01 / Sistem principal</p>
+            <h1>AtlasEnergie</h1>
+            <p class="case-deck">Hartă și marketplace pentru proiecte energetice din România, construite din surse publice fragmentate.</p>
+          </div>
+          <aside class="case-hero-aside" aria-label="Detalii despre proiect">
+            <dl class="case-facts">
+              <div class="case-fact">
+                <dt>Status</dt>
+                <dd>Live beta</dd>
+              </div>
+              <div class="case-fact">
+                <dt>Domeniu</dt>
+                <dd>Energie · date</dd>
+              </div>
+              <div class="case-fact">
+                <dt>Rol</dt>
+                <dd>Dezvoltare produs și sistem</dd>
+              </div>
+            </dl>
+            <a class="arrow-link" href="https://atlasenergie.ro/" target="_blank" rel="noopener noreferrer">Deschide produsul ↗</a>
+          </aside>
+        </header>
+
+        <figure class="case-cover">
+          <picture>
+            <source media="(max-width: 719px)" srcset="/assets/projects/atlas-mobile.webp">
+            <img src="/assets/projects/atlas.webp" width="1440" height="1000" alt="Marketplace-ul AtlasEnergie, cu filtre pentru tehnologie, județ și starea proiectului" decoding="async">
+          </picture>
+        </figure>
+
+        <section class="case-section" aria-labelledby="atlas-outcome">
+          <h2 id="atlas-outcome">Rezultat</h2>
+          <div class="case-content">
+            <p>AtlasEnergie adună într-un singur loc informații despre racordările la rețea și proiectele energetice din România, până atunci greu de găsit și comparat.</p>
+            <p>Platforma combină o hartă, o bază de date și un marketplace. Proprietarii își pot verifica proiectele, le pot lista și pot discuta cu potențiali cumpărători fără să-și dezvăluie identitatea prea devreme.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-context">
+          <h2 id="atlas-context">Context</h2>
+          <div class="case-content">
+            <p>Datele existau, dar erau împrăștiate în registrele autorităților, fișierele operatorilor, PDF-uri și publicații de rețea. Fiecare sursă avea alt format, altă acoperire și alt ritm de actualizare.</p>
+            <p>Nu era suficient să pun toate rândurile într-un tabel nou. Trebuia să păstrez sursa fiecărei informații, să clarific datele care se contraziceau și să arăt unde există incertitudine.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-constraints">
+          <h2 id="atlas-constraints">Constrângeri</h2>
+          <div class="case-content">
+            <p>Partea grea a fost să stabilesc ce poate demonstra cu adevărat fiecare sursă.</p>
+            <ul class="constraint-list">
+              <li>Registrele publice vin în fișiere XLSX, PDF-uri și tabele neuniforme, administrate de instituții diferite.</li>
+              <li>Unele surse nu menționează proprietarul proiectului; altele îl ascund în text liber.</li>
+              <li>Același tip de denumire poate indica un proiect mare sau un prosumator. Tensiunea și contextul spun mai mult decât numele.</li>
+              <li>O listare anonimă trebuie să fie utilă fără să dezvăluie vânzătorul prin titlu, stație sau descriere.</li>
+              <li>Sursele se actualizează la intervale diferite și nu acoperă aceleași zone. Interfața nu poate promite date complete sau în timp real.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-shipped">
+          <h2 id="atlas-shipped">Ce am livrat</h2>
+          <div class="case-content">
+            <p>Am construit produsul complet: de la preluarea și curățarea datelor până la căutare, hartă și operațiunile marketplace-ului.</p>
+            <ul class="shipped-list">
+              <li>Preluare controlată și cache pentru sursele autorităților, operatorilor de transport și distribuție și instituțiilor publice.</li>
+              <li>Model PostgreSQL normalizat, clasificarea stațiilor, geocodare offline și legături proiect–proprietar bazate pe dovezi.</li>
+              <li>Hartă publică, căutare de proiecte, registru de companii și fișe de proiect anonimizate.</li>
+              <li>Verificarea companiilor, revendicarea proiectelor, listări, solicitări din partea cumpărătorilor și alerte pentru căutările salvate.</li>
+              <li>Deploy, limitarea cererilor și reguli clare pentru operațiunile care modifică date sau apelează servicii externe.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-system">
+          <h2 id="atlas-system">Vedere de ansamblu</h2>
+          <div class="system-panel">
+            <div class="system-panel-header">
+              <h3>De la registru public la produs interactiv</h3>
+              <span class="diagram-label">Arhitectură simplificată</span>
+            </div>
+            <div class="system-flow" aria-label="Fluxul de date AtlasEnergie">
+              <div class="flow-node">
+                <span class="diagram-label">Surse</span>
+                <strong>Registre publice</strong>
+                <span>XLSX, PDF, registre și publicații de rețea</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Preluare</span>
+                <strong>Parsare + clasificare</strong>
+                <span>Cache, normalizare, geocodare și păstrarea provenienței</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Nucleu</span>
+                <strong>Model de încredere</strong>
+                <span>Proiecte, proprietari, revendicări, listări și interese</span>
+              </div>
+              <div class="flow-node">
+                <span class="diagram-label">Interfață</span>
+                <strong>Hartă + marketplace</strong>
+                <span>Căutare, analiză, verificare, listare și contact</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-decisions">
+          <h2 id="atlas-decisions">Decizii importante</h2>
+          <dl class="decision-list">
+            <div class="decision-row">
+              <dt>Geocodare offline</dt>
+              <dd>Cele mai multe nume de stații trebuie asociate cu o localitate. Un dicționar de localități și filtrarea pe județ sunt mai previzibile decât mii de căutări externe de adrese.</dd>
+              <dd class="decision-tradeoff">Unitățile industriale și punctele de racordare scrise liber rămân fără coordonate până când apare o sursă mai bună.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Revendicarea înregistrărilor existente</dt>
+              <dd>Dezvoltatorul găsește proiectul public și dovedește că îi aparține, în loc să creeze o înregistrare separată. Astfel, listarea rămâne legată de sursa originală.</dd>
+              <dd class="decision-tradeoff">Cazurile neclare trebuie verificate manual. Atribuirea corectă este mai importantă decât viteza.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Datele sursă rămân nemodificate</dt>
+              <dd>O listare poate adăuga informații comerciale, dar nu poate rescrie datele autorității pe care se bazează proiectul.</dd>
+              <dd class="decision-tradeoff">Datele publice vechi rămân vizibile ca atare și au nevoie de un mecanism separat de corectare.</dd>
+            </div>
+            <div class="decision-row">
+              <dt>Cumpărătorul se prezintă primul</dt>
+              <dd>Cumpărătorul se prezintă primul. Vânzătorul își arată datele de contact numai după ce acceptă solicitarea.</dd>
+              <dd class="decision-tradeoff">Pasul în plus reduce mesajele ocazionale, dar protejează vânzătorul atunci când expunerea proiectului poate avea un cost.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-proof">
+          <h2 id="atlas-proof">Dovezi</h2>
+          <div class="proof-grid">
+            <div class="proof-item">
+              <strong>Produs public</strong>
+              <p>Harta și marketplace-ul pot fi explorate direct în produsul public.</p>
+              <a class="arrow-link" href="https://atlasenergie.ro/" target="_blank" rel="noopener noreferrer">Deschide AtlasEnergie ↗</a>
+            </div>
+            <div class="proof-item">
+              <strong>Surse care pot fi urmărite</strong>
+              <span>Fiecare sursă are propriul traseu de preluare și normalizare. Sursele compatibile împart același cache și același parser.</span>
+            </div>
+            <div class="proof-item">
+              <strong>Fără certitudini inventate</strong>
+              <span>Asocierile slabe rămân marcate ca slabe. Dacă proprietarul nu poate fi stabilit clar, legătura nu este creată.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-limits">
+          <h2 id="atlas-limits">Limite</h2>
+          <div class="limits-panel">
+            <h3>Produsul este limitat de sursele sale.</h3>
+            <p>Acoperirea și frecvența actualizărilor diferă de la un operator la altul. Unii proprietari nu pot fi identificați, iar anumite puncte de racordare nu pot fi geocodate sigur. Atlas arată aceste limite și nu prezintă un registru public drept o imagine în timp real a rețelei.</p>
+          </div>
+        </section>
+
+        <section class="case-section" aria-labelledby="atlas-role">
+          <h2 id="atlas-role">Rol și tehnologii</h2>
+          <div class="case-content">
+            <p class="role-statement">Am proiectat și construit produsul de la cap la coadă: modelul de date, preluarea surselor, marketplace-ul, interfața publică și infrastructura de operare.</p>
+            <p class="stack-line">Python · Django · PostgreSQL · GeoNames offline · HTML/CSS/JavaScript · nginx · gunicorn · systemd</p>
+          </div>
+        </section>
+
+        <nav class="next-case" aria-label="Următorul studiu de caz">
+          <span class="next-case-label">Următorul sistem</span>
+          <a class="arrow-link" href="/work/vine/">busapp →</a>
+        </nav>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta container">
+        <div class="footer-meta-group">
+          <a href="/">0xhuo</a>
+          <span>România</span>
+          <a href="mailto:contact@0xhuo.dev">contact@0xhuo.dev</a>
+        </div>
+        <span>© 2026</span>
+      </div>
+    </footer>
+  </body>
+</html>
