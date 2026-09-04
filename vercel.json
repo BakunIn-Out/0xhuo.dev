@@ -1,5 +1,11 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
+    {
+      "src": "/work/vine/?",
+      "headers": { "Location": "/work/busapp/" },
+      "status": 308
+    },
     { "handle": "error" },
     { "src": ".*", "statusCode": 404, "dest": "/404.html" }
   ]

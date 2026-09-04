@@ -16,7 +16,7 @@ Then open `http://127.0.0.1:4173/`.
 
 - `index.html` — selected work, client work, capabilities and lab projects
 - `work/atlas-energie/` — AtlasEnergie case study
-- `work/vine/` — busapp case study
+- `work/busapp/` — busapp case study
 - `work/licto/` — Licto case study
 - `tokens.css` — brand, typography and layout tokens
 - `styles.css` — shared responsive styles

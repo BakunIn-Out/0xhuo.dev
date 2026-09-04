@@ -40,7 +40,7 @@ Held back from v1: Mineral Recovery, `web_serv`, `pep_store`, empty/incomplete v
 └── Contact
 
 /work/atlas-energie/
-/work/vine/
+/work/busapp/
 /work/licto/
 
 External
