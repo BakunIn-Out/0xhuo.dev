@@ -1,3 +1,5 @@
 .hallmark/
 .vercel
 .env*
+
+# Auto-deploy Vercel: conectat la GitHub (verificat 2026-09-04).
