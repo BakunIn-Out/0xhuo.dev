@@ -35,11 +35,12 @@ Studied DNA from the public Hudovich reference, adapted to the 0xhuo mark.
 - Body: 16px / 1.6.
 - Page title: 24px / 1.3; case title may reach 28px.
 - Section labels: 14px, uppercase, 0.05em tracking.
+- Headings balance and prose wraps cleanly where the browser supports native text wrapping.
 - No oversized display type and no italic headings.
 
 ## Spacing
 
-4-point scale in `tokens.css`. Main reading shell is 44rem including 1rem mobile / 2rem desktop gutters. Major homepage blocks use 3rem separation; internal spacing uses 0.5–1.25rem.
+4-point scale in `tokens.css`. Main reading shell is 44rem including 1rem mobile / 2rem desktop gutters. Major homepage blocks use 3rem separation; internal spacing uses 0.5–1.25rem. Project cards use 1rem padding on mobile and 1.25rem once the two-column layout begins.
 
 ## Motion
 
@@ -51,6 +52,7 @@ Studied DNA from the public Hudovich reference, adapted to the 0xhuo mark.
 ## Microinteractions stance
 
 - Cards receive one quiet border/ring change; they never lift or scale.
+- Card arrows remain quiet on desktop and stay faintly visible on touch screens.
 - Project categories use a neutral surface; project states keep the amber signal.
 - Text links thicken their amber underline.
 - Theme changes are immediate and persisted locally.

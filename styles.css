@@ -26,6 +26,7 @@ body {
   color: var(--color-ink-2);
   font-family: var(--font-body);
   font-size: var(--text-base);
+  font-synthesis: none;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -96,6 +97,13 @@ h3 {
   font-family: var(--font-display);
   font-style: normal;
   overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+p,
+dd,
+li {
+  text-wrap: pretty;
 }
 
 h1 {
@@ -317,6 +325,7 @@ ol {
   border-radius: var(--radius-card);
   font-size: var(--text-sm);
   font-weight: 550;
+  letter-spacing: -0.01em;
   line-height: 1;
   text-decoration: none;
   transition:
@@ -383,6 +392,7 @@ ol {
 .card-heading h3 {
   min-width: 0;
   font-weight: 650;
+  letter-spacing: -0.015em;
 }
 
 .badge {
@@ -566,7 +576,7 @@ main > .container {
   display: grid;
   grid-template-columns: 5.5rem minmax(0, 1fr);
   gap: var(--space-sm);
-  padding-block: var(--space-2xs);
+  padding-block: var(--space-xs);
   border-block-end: var(--rule-hair) solid var(--color-rule);
 }
 
@@ -879,13 +889,17 @@ main > .container {
   }
 }
 
-@media (min-width: 30rem) {
-  .profile-intro h1 {
-    font-size: var(--text-xl);
+@media (pointer: coarse) {
+  .card-arrow {
+    opacity: 0.6;
   }
 }
 
 @media (min-width: 40rem) {
+  .profile-intro h1 {
+    font-size: var(--text-2xl);
+  }
+
   .page-main,
   main > .container {
     padding-block-start: var(--space-2xl);
@@ -895,6 +909,15 @@ main > .container {
   .project-list,
   .state-comparison {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .compact-card {
+    padding: var(--space-md);
+  }
+
+  .card-arrow {
+    inset-inline-end: var(--space-md);
+    inset-block-end: var(--space-md);
   }
 
   .case-cover img {
