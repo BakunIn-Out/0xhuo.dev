@@ -477,17 +477,12 @@ ol {
   font-weight: 550;
 }
 
-.practice-link {
-  min-height: var(--control-height);
-  display: inline-flex;
-  align-items: center;
-  color: var(--color-ink);
-  text-decoration-color: var(--color-accent);
-  white-space: nowrap;
-}
-
 .practice-list dd {
   color: var(--color-ink-2);
+}
+
+.practice-cta {
+  margin-block-start: var(--space-xs);
 }
 
 .lab-list {
@@ -993,7 +988,6 @@ main > .container {
 
 @media (hover: hover) and (pointer: fine) {
   .brand:hover,
-  .practice-link:hover,
   .inline-link:hover,
   .arrow-link:hover {
     color: var(--color-accent);
