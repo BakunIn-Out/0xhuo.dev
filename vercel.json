@@ -2,6 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
     {
+      "src": "/servicii",
+      "headers": { "Location": "/servicii/" },
+      "status": 308
+    },
+    {
       "src": "/work/vine/?",
       "headers": { "Location": "/work/busapp/" },
       "status": 308

@@ -12,7 +12,8 @@ Technical editorial. The site is a compact personal profile and project index, n
 
 - Homepage: **Index-First** with a compact first-person profile introduction.
 - Case studies: **Long Document** with screenshots kept inside the reading measure.
-- Service pages: **Letter Hero + Conversational FAQ**, written directly in the independent engineer's voice.
+- Services hub: **Catalogue**, a typography-only index of the available services.
+- Service detail pages: **Letter Hero + Conversational FAQ**, written directly in the independent engineer's voice.
 - Navigation: **N9 Edge-aligned minimal** — mark at left, theme control at right, no link row.
 - Footer: **Ft2 Inline rule single line**.
 
@@ -69,7 +70,7 @@ Studied DNA from the public Hudovich reference, adapted to the 0xhuo mark.
 
 - Homepage has no project screenshots; project names and statuses carry recognition without initial marks.
 - Case studies may use one real cover screenshot plus factual diagrams.
-- Service pages remain typography-only and use questions, ruled lists and real project links instead of marketing cards.
+- The services hub and detail pages remain typography-only and use ruled lists and real project links instead of marketing cards.
 - 404 remains typography-only.
 
 ## What pages MUST share
